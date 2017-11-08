@@ -10,7 +10,7 @@ scripts/wordcount.py books/abyss.txt abyss.tsv
 scripts/plotcount.py isles.tsv isles.png
 scripts/plotcount.py abyss.tsv abyss.png
 
-# Now archive the results in a tarball so we can share them with a colleague.
+# Archive the results.
 rm -rf zipf_results
 mkdir zipf_results
 cp isles.tsv abyss.tsv isles.png abyss.png zipf_results/
